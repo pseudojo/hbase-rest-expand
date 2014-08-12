@@ -320,7 +320,7 @@ public class TableManager {
 	 * @return
 	 * @throws IOException
 	 */
-	protected TableSchemaModel getTableSchema(final String tableName) throws IOException {
+	public TableSchemaModel getTableSchema(final String tableName) throws IOException {
 		StringBuilder path = new StringBuilder();
 		path.append('/');
 		path.append(tableName);
